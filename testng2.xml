@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EnvelopeFinance_API_Automation">
+
+
+<listeners>
+      <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" /> 
+      
+</listeners>
+  <test thread-count="5" name="EnvelopeFinance_API's">
+    <classes>
+      <class name="com.EnvelopeFinance_API.GET_yodlee_user_token"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

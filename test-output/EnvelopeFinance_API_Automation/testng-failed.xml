@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EnvelopeFinance_API_Automation]">
+  <listeners>
+    <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="EnvelopeFinance_API&#039;s(failed)">
+    <classes>
+      <class name="Mypursu_API.GET_accountlist">
+        <methods>
+          <include name="get_accountlist"/>
+        </methods>
+      </class> <!-- Mypursu_API.GET_accountlist -->
+    </classes>
+  </test> <!-- EnvelopeFinance_API's(failed) -->
+</suite> <!-- Failed suite [EnvelopeFinance_API_Automation] -->
